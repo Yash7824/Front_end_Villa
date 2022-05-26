@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    /* font-family: "Signika Negative", sans-serif;
+  font-family: "Source Sans Pro", sans-serif; */
+    font-family: "Cabin", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Signika Negative", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+header nav ul {
+    display: inherit;
+    flex-direction: inherit;
+}
+
+header nav ul li {
+    display: inherit;
+    flex-direction: inherit;
+    list-style: none;
+    padding-left: 2px;
+}
+
+header nav ul li:first-child {
+    margin-left: 10px;
+}
+
+header nav ul li:nth-child(2) {
+    margin-left: 330px;
+}
+
+header nav ul li:nth-child(11) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    font-style: oblique;
+    font-feature-settings: "aalt";
+    text-decoration: underline;
+    padding: 2px;
+}
+
+.img1 {
+    width: 90vw;
+    height: 92vh;
+    margin-left: 2px;
+    margin-right: 1em;
+    border-radius: 20px;
+
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upside {
+    margin-bottom: 10px;
+}
+
+.upside button {
+    border: 1px solid greenyellow;
+    color: aqua;
+    animation: glow 1.5s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
+/* .l {
+    width: fit-content;
+    white-space: wrap;
+    animation: example 10s linear 0.5s infinite;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+@keyframes example {
+    0% {
+        margin-left: 0%;
+        opacity: 0%;
+    }
+
+    10% {
+        opacity: 100%;
+    }
+
+    90% {
+        opacity: 100%;
+    }
+
+    100% {
+        margin-left: -100%;
+        opacity: 0%;
+    }
+} */
+
+
+/* .slide{
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/01/04/c9/manduna-resort.jpg?w=900&h=-1&s=1");
+    }
+
+    40%{
+        background-image: url("https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_650,q_auto,w_576/v1/filestore/c2rz3vzfzj9oa2o8z9ztc2ja9qdy_1589807667_Leonia-Holistic-Destination-Areal-View.jpg");
+    }
+
+    75%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMWylgFXq9OSGxvFKU_fNlXXdEnZ8iA8mOLg&usqp=CAU");
+    }
+
+} */
